@@ -6,7 +6,7 @@ a{color:var(--text);text-decoration:none}img{max-width:100%;display:block}.conta
 nav{position:sticky;top:0;z-index:50;background:rgba(11,11,12,.8);backdrop-filter:blur(10px);border-bottom:1px solid #1f1f22}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.5px}
 .brand img{height:36px;width:auto}.nav-links{display:flex;gap:24px;align-items:center}.nav-links a{opacity:.9}.nav-links a.active,.nav-links a:hover{color:var(--orange)}
-.mobile-toggle{display:none;background:none;border:0;color:#fff;font-size:26px}..hero {
+.mobile-toggle{display:none;background:none;border:0;color:#fff;font-size:26px}.hero {
   padding:96px 0;
   background: 
     linear-gradient(180deg, rgba(255,106,0,.08), transparent 60%),
