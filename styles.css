@@ -43,25 +43,24 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-/* Zero-gap brand word */
-.brand-word{
-  display:inline-flex;
-  gap:0;               /* absolutely no gap between the two parts */
-  letter-spacing:0;    /* kill any extra tracking */
-  word-spacing:0;      /* kill word spacing just in case */
+/* Bigger brand text */
+.brand-word {
+  display: inline-flex;
+  gap: 0;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 28px;   /* increase size here */
+  font-weight: 800;  /* keep bold look */
+  line-height: 1;    /* keep it tight */
 }
 
-/* Colors */
-.brand .dim{ color:#fff; }
-.brand .light{ color:var(--orange); }
+.brand .dim { color: #fff; }
+.brand .light { color: var(--orange); }
 
-/* Make sure no margins sneak in */
 .brand .dim,
-.brand .light{
-  margin:0;
-  padding:0;
-  line-height:1;       /* keeps vertical alignment tight */
+.brand .light {
+  margin: 0;
+  padding: 0;
 }
-
 
 
