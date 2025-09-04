@@ -62,25 +62,5 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   margin: 0;
   padding: 0;
 }
-/* Brand word styling everywhere */
-.brand-word {
-  font-size: 28px;      /* adjust as needed */
-  font-weight: 800;
-  display: inline-flex;
-  gap: 0;
-  letter-spacing: 0;
-  word-spacing: 0;
-}
-
-.brand .dim,
-footer .dim {
-  color: #fff;          /* white */
-}
-
-.brand .light,
-footer .light {
-  color: var(--orange); /* orange */
-}
-
 
 
