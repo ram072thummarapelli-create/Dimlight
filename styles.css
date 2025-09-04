@@ -43,11 +43,27 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+.brand {
+  display:flex;
+  align-items:center;
+  gap:8px;              /* keep logo spacing */
+  font-weight:800;
+  letter-spacing:0;     /* remove unwanted extra space */
+}
+
 .brand .dim {
   color: white;
 }
 
 .brand .light {
-  color: var(--orange);  /* just the text is orange */
+  color: var(--orange);
 }
+
+.brand .dim,
+.brand .light {
+  display:inline-block;
+  margin:0;
+  padding:0;
+}
+
 
