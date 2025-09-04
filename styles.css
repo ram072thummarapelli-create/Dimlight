@@ -43,27 +43,25 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-.brand {
-  display:flex;
-  align-items:center;
-  gap:8px;              /* keep logo spacing */
-  font-weight:800;
-  letter-spacing:0;     /* remove unwanted extra space */
+/* Zero-gap brand word */
+.brand-word{
+  display:inline-flex;
+  gap:0;               /* absolutely no gap between the two parts */
+  letter-spacing:0;    /* kill any extra tracking */
+  word-spacing:0;      /* kill word spacing just in case */
 }
 
-.brand .dim {
-  color: white;
-}
+/* Colors */
+.brand .dim{ color:#fff; }
+.brand .light{ color:var(--orange); }
 
-.brand .light {
-  color: var(--orange);
-}
-
+/* Make sure no margins sneak in */
 .brand .dim,
-.brand .light {
-  display:inline-block;
+.brand .light{
   margin:0;
   padding:0;
+  line-height:1;       /* keeps vertical alignment tight */
 }
+
 
 
