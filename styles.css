@@ -43,3 +43,14 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+.brand .dim {
+  color: white;
+}
+
+.brand .light {
+  color: black;
+  background: orange;   /* optional highlight */
+  padding: 0 2px;       /* tighter look */
+  border-radius: 3px;
+}
+
