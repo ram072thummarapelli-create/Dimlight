@@ -62,5 +62,15 @@ footer{padding:40px 0;border-top:1px solid #1b1b1e;color:#bcbcbc}footer .row{dis
   margin: 0;
   padding: 0;
 }
+/* Brand word styling everywhere */
+.brand-word{display:inline-flex;gap:0;letter-spacing:0;word-spacing:0;font-size:28px;font-weight:800;line-height:1}
+
+/* Make sure anchor's default color doesn't override */
+nav .brand .dim{ color:#fff !important; }
+nav .brand .light{ color:var(--orange) !important; }
+
+/* Safety */
+.dim,.light{margin:0;padding:0}
+
 
 
